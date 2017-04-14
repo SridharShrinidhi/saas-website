@@ -1,0 +1,30 @@
+html {
+  font-family: 'Coda', cursive;
+  font-family: 'Unica One', cursive;
+}
+
+header {
+  background-color: #369CA0;
+  color: #E8DC1C;
+}
+
+.nav, .list-group, p {
+  font-family: 'Coda', cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #EFDE17;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #EFDE17;
+}
+
+.white {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
