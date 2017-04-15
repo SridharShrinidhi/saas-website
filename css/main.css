@@ -1,6 +1,10 @@
 html {
   font-family: 'Coda', cursive;
   font-family: 'Unica One', cursive;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 header {
@@ -8,7 +12,7 @@ header {
   color: #E8DC1C;
 }
 
-.nav, .list-group, p {
+.nav, .list-group, p, blockquote {
   font-family: 'Coda', cursive;
   font-style: normal;
   font-weight: 400;
@@ -27,4 +31,14 @@ header {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background-color: #369CA0;
+  color: #E8DC1C;
+}
+
+.img {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
