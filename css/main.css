@@ -1,6 +1,8 @@
 html {
   font-family: 'Coda', cursive;
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", cursive;
+  font-family: "Droid Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -8,8 +10,14 @@ html {
 }
 
 header {
-  background-color: #369CA0;
+  background-color: #fff;
   color: #E8DC1C;
+}
+
+h1 {
+  color: #369CA0;
+  font-family: "Unica One", cursive;
+  font-size: 5rem;
 }
 
 .nav, .list-group, p, blockquote {
@@ -18,15 +26,27 @@ header {
   font-weight: 400;
 }
 
-.btn {
-  background-color: #EFDE17;
-  color: #ffffff;
-  text-decoration: none;
-  border: 1px solid #EFDE17;
+main {
+  height: 55vh;
 }
 
-.white {
-  color: #fff;
+.homepage {
+  background-image: url("../images/typewriter-01.jpg");
+  background-size: contain;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.btn {
+  background-color: #F7E96B;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #F7E96B;
+}
+
+.blue {
+  color: #369CA0;
 }
 
 a {
@@ -34,11 +54,90 @@ a {
 }
 
 footer {
-  background-color: #369CA0;
-  color: #E8DC1C;
+  background-color: #F7E96B;
+  color: #6C6C6D;
 }
 
-.img {
+.img-flex {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
+  opacity: 0.8;
+}
+
+.y {
+  color: #F7E96B;
+}
+
+.white {
+  background-color: #fff;
+}
+
+legend {
+  color: #369CA0;
+  font-family: 'Coda', cursive;
+}
+
+label {
+  font-family: "Droid Sans", sans-serif;
+}
+
+fieldset {
+  border: 0;
+}
+
+.w-3-4 {
+  width: 75%;
+}
+
+form {
+  background-image: url("../images/book-pen-edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (min-width: 20em) {
+
+.pin-bc {
+  bottom: 0;
+  left: 20%;
+  transform: translateX(-15%);
+}
+
+.pin-c {
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+.pin-bc {
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+.pin-bc {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.pin-bc {
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 }
