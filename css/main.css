@@ -82,6 +82,10 @@ footer {
   font-family: "Droid Sans", sans-serif;
 }
 
+.coda {
+  font-family: 'Coda', cursive;
+}
+
 .border-b {
   border: 0;
 }
@@ -111,47 +115,38 @@ form {
 }
 
 @media only screen and (min-width: 20em) {
-
-.pin-bc {
-  bottom: 0;
-  left: 20%;
-  transform: translateX(-15%);
-}
-
-.pin-c {
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%, -50%);
-}
-
+  .pin-bc {
+    bottom: 0;
+    left: 20%;
+    transform: translateX(-15%);
+  }
+  .pin-c {
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media only screen and (min-width: 30em) {
-
-.pin-bc {
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
+  .pin-bc {
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (min-width: 38em) {
-
-.pin-bc {
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
+  .pin-bc {
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (min-width: 60em) {
-
-.pin-bc {
-  bottom: 35%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
+  .pin-bc {
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

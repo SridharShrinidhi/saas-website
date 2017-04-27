@@ -25,18 +25,22 @@
   </header>
 
   <main>
-    <form class="island" action="//formspree.io/srid0002@algonquinlive.com" method="post">
+    <form class="island" method="POST" action="https://formspree.io/srid0002@algonquinlive.com">
       <fieldset>
-        <legend class="text-center giga push">Sign up</legend>
+
+        <legend class="text-center giga push coda">Sign up</legend>
+        <h2 class="text-center droid">Discover type at your fingertips</h2>
         <label class="left w-1-4 milli droid" for="name">Name: </label>
-        <input class="left w-3-4 push" id="name" required>
+        <input class="left w-3-4 push" id="name" name="name" required >
         <label class="left w-1-4 milli droid" for="email">E-mail: </label>
-        <input class="left w-3-4 push" type="email" id="email" placeholder="me@me.com">
+        <input class="left w-3-4 push" type="email" id="email" placeholder="me@me.com" name="email">
         <label class="left w-1-4 milli droid" for="password">Password: </label>
-        <input class="left w-3-4 push" type="password" id="password">
+        <input class="left w-3-4 push" type="password" id="password" name="password">
       </fieldset>
 
-      <button class="btn text-center" type="submit"><a class="white text-center" href="thankyou.html">Submit</a></button>
+      <div class="text-center width-full push">
+        <button class="btn" type="submit">Submit!</button>
+      </div>
     </form>
 
   </main>
