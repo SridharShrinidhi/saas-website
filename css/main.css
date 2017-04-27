@@ -77,6 +77,15 @@ footer {
 .ds {
   font-family: "Dancing Script", cursive;
 }
+
+.droid {
+  font-family: "Droid Sans", sans-serif;
+}
+
+.border-b {
+  border: 0;
+}
+
 legend {
   color: #369CA0;
   font-family: 'Coda', cursive;
