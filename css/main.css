@@ -1,5 +1,5 @@
 html {
-  font-family: 'Coda', cursive;
+  font-family: Coda, cursive;
   font-family: "Unica One", cursive;
   font-family: "Droid Sans", sans-serif;
   font-family: "Dancing Script", cursive;
@@ -15,17 +15,17 @@ html {
 
 header {
   background-color: #fff;
-  color: #E8DC1C;
+  color: #e8dc1c;
 }
 
 h1 {
-  color: #369CA0;
+  color: #369ca0;
   font-family: "Unica One", cursive;
   font-size: 5rem;
 }
 
 .nav, .list-group, p, blockquote {
-  font-family: 'Coda', cursive;
+  font-family: Coda, cursive;
   font-style: normal;
   font-weight: 400;
 }
@@ -43,18 +43,18 @@ h1 {
 }
 
 .btn {
-  background-color: #F7E96B;
+  background-color: #f7e96b;
   color: #ffffff;
   text-decoration: none;
-  border: 1px solid #F7E96B;
+  border: 1px solid #f7e96b;
 }
 
 .blue {
-  color: #369CA0;
+  color: #369ca0;
 }
 
 .beige {
-  background-color: #E0DCDC;
+  background-color: #e0dcdc;
 }
 
 a {
@@ -62,12 +62,12 @@ a {
 }
 
 footer {
-  background-color: #F7E96B;
-  color: #6C6C6D;
+  background-color: #f7e96b;
+  color: #6c6c6d;
 }
 
 .y {
-  color: #F7E96B;
+  color: #f7e96b;
 }
 
 .white {
@@ -83,7 +83,7 @@ footer {
 }
 
 .coda {
-  font-family: 'Coda', cursive;
+  font-family: Coda, cursive;
 }
 
 .border-b {
@@ -91,8 +91,8 @@ footer {
 }
 
 legend {
-  color: #369CA0;
-  font-family: 'Coda', cursive;
+  color: #369ca0;
+  font-family: Coda, cursive;
 }
 
 label {
@@ -114,39 +114,54 @@ form {
   background-position: center;
 }
 
+.dashed {
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: #000;
+}
+
 @media only screen and (min-width: 20em) {
+
   .pin-bc {
     bottom: 0;
     left: 20%;
     transform: translateX(-15%);
   }
+
   .pin-c {
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
   }
+
 }
 
 @media only screen and (min-width: 30em) {
+
   .pin-bc {
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
   }
+
 }
 
 @media only screen and (min-width: 38em) {
+
   .pin-bc {
     bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
   }
+
 }
 
 @media only screen and (min-width: 60em) {
+
   .pin-bc {
     bottom: 35%;
     left: 50%;
     transform: translateX(-50%);
   }
+
 }
