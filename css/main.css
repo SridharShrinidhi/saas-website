@@ -9,6 +9,10 @@ html {
   text-size-adjust: 100%;
 }
 
+.text {
+  font-family: "Droid Sans", sans-serif;
+}
+
 header {
   background-color: #fff;
   color: #E8DC1C;
@@ -26,7 +30,7 @@ h1 {
   font-weight: 400;
 }
 
-main {
+.main {
   height: 55vh;
 }
 
@@ -49,6 +53,10 @@ main {
   color: #369CA0;
 }
 
+.beige {
+  background-color: #E0DCDC;
+}
+
 a {
   text-decoration: none;
 }
@@ -56,12 +64,6 @@ a {
 footer {
   background-color: #F7E96B;
   color: #6C6C6D;
-}
-
-.img-flex {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  opacity: 0.8;
 }
 
 .y {
@@ -72,6 +74,9 @@ footer {
   background-color: #fff;
 }
 
+.ds {
+  font-family: "Dancing Script", cursive;
+}
 legend {
   color: #369CA0;
   font-family: 'Coda', cursive;
