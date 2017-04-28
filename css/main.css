@@ -44,13 +44,17 @@ h1 {
 
 .btn {
   background-color: #f7e96b;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   border: 1px solid #f7e96b;
 }
 
 .blue {
   color: #369ca0;
+}
+
+.bg-b {
+  fill: ##369ca0;
 }
 
 .beige {
@@ -114,6 +118,17 @@ form {
   background-position: center;
 }
 
+.form1 {
+  background-image: none;
+}
+
+[type="radio"] + label::before {
+  border-color: #369ca0;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
 .dashed {
   border-bottom-width: 1px;
   border-bottom-style: dashed;
@@ -134,6 +149,10 @@ form {
     transform: translate(-50%, -50%);
   }
 
+  .hide {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 30em) {
@@ -142,6 +161,14 @@ form {
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .show {
+    display: none;
+  }
+
+  .hide {
+    display: block;
   }
 
 }
