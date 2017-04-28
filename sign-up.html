@@ -10,6 +10,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Coda|Dancing+Script|Droid+Sans:400,700|Unica+One" rel="stylesheet">
+    <meta name="referrer" content="origin">
 </head>
 
 <body>
@@ -28,20 +29,21 @@
 
   <main>
     <form class="island" method="POST" action="https://formspree.io/srid0002@algonquinlive.com">
+      <input type="hidden" name="redirect" value="thankyou.html">
       <fieldset>
 
-        <legend class="text-center giga push coda">Sign up</legend>
-        <h2 class="text-center droid">Discover type at your fingertips</h2>
+        <legend class="text-center giga push-half coda">Sign up</legend>
+        <h2 class="text-center kilo droid">Discover type at your fingertips</h2>
         <label class="left w-1-4 milli droid" for="name">Name: </label>
         <input class="left w-3-4 push" id="name" name="name" required>
         <label class="left w-1-4 milli droid" for="email">E-mail: </label>
-        <input class="left w-3-4 push" type="email" id="email" placeholder="me@me.com" name="email">
+        <input class="left w-3-4 push" type="email" id="email" placeholder="me@me.com" name="email" required>
         <label class="left w-1-4 milli droid" for="password">Password: </label>
-        <input class="left w-3-4 push" type="password" id="password" name="password">
+        <input class="left w-3-4 push" type="password" id="password" name="password" required>
       </fieldset>
 
       <div class="text-center width-full push">
-        <button class="btn" type="submit">Submit!</button>
+        <button class="btn" type="submit" value="send">Submit!</button>
       </div>
     </form>
 
