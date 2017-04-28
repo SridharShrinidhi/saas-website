@@ -37,7 +37,8 @@ h1 {
 .homepage {
   background-image: url("../images/typewriter-01.jpg");
   background-size: contain;
-  height: 70vh;
+  height: 90vh;
+  width: 100vw;
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -47,6 +48,35 @@ h1 {
   color: #fff;
   text-decoration: none;
   border: 1px solid #f7e96b;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #f7e96b;
+  text-decoration: none;
+  border: 1px solid #f7e96b;
+}
+
+.grey {
+  background-color: #6c6c6d;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #6c6c6d;
+}
+
+.grey:hover {
+  background-color: #fff;
+  color: #6c6c6d;
+  text-decoration: none;
+  border: 1px solid #6c6c6d;
+}
+
+.w {
+  color: #fff;
+}
+
+.g {
+  color: #6c6c6d;
 }
 
 .blue {
@@ -59,6 +89,18 @@ h1 {
 
 .beige {
   background-color: #e0dcdc;
+}
+
+.line-l {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.line-l-1-2 {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
 }
 
 a {
@@ -111,6 +153,11 @@ fieldset {
   width: 75%;
 }
 
+video {
+  display: block;
+  margin: 0 auto;
+}
+
 form {
   background-image: url("../images/book-pen-edited.jpg");
   background-size: cover;
@@ -129,6 +176,10 @@ form {
   border-radius: 50%;
 }
 
+span {
+  font-style: italic;
+}
+
 .dashed {
   border-bottom-width: 1px;
   border-bottom-style: dashed;
@@ -136,6 +187,13 @@ form {
 }
 
 @media only screen and (min-width: 20em) {
+
+  .homepage {
+    background-image: url("../images/typewriter-01.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
 
   .pin-bc {
     bottom: 0;
