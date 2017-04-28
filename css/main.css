@@ -34,6 +34,14 @@ h1 {
   height: 55vh;
 }
 
+.u {
+  font-family: "Unica One", cursive;
+}
+
+.b {
+  color: #000;
+}
+
 .homepage {
   background-image: url("../images/typewriter-01.jpg");
   background-size: contain;
@@ -48,6 +56,56 @@ h1 {
   color: #fff;
   text-decoration: none;
   border: 1px solid #f7e96b;
+}
+
+.nav {
+  display: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+  background-color: #594139;
+}
+
+label {
+  margin: 0;
+}
+
+.nav {
+  background-color: #369ca0;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+[type="checkbox"] + label::before {
+  display: none;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-label img {
+  display: inline-block;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  padding: .75rem;
+  width: 20em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
 }
 
 .btn:hover {
@@ -184,6 +242,9 @@ span {
   border-bottom-width: 1px;
   border-bottom-style: dashed;
   border-bottom-color: #000;
+}
+a:focus {
+  outline: 3px solid #000;
 }
 
 @media only screen and (min-width: 20em) {
