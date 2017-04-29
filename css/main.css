@@ -18,13 +18,18 @@ header {
   color: #e8dc1c;
 }
 
+.nav li:hover a {
+  color: #f7e96b;
+  text-decoration: line-through;
+}
+
 h1 {
   color: #369ca0;
   font-family: "Unica One", cursive;
   font-size: 5rem;
 }
 
-.nav, .list-group, p, blockquote {
+.list-group, p, blockquote {
   font-family: Coda, cursive;
   font-style: normal;
   font-weight: 400;
@@ -40,6 +45,16 @@ h1 {
 
 .b {
   color: #000;
+}
+
+.box {
+  border: 1px solid #6c6c6d;
+  border-radius: 5px;
+}
+
+.box1 {
+  border: 1px solid #f7e96b;;
+  border-radius: 5px;
 }
 
 .homepage {
@@ -63,6 +78,9 @@ h1 {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  font-family: Coda, cursive;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .nav-check {
@@ -73,10 +91,17 @@ h1 {
 
 label {
   margin: 0;
+  font-family: "Droid Sans", sans-serif;
 }
 
 .nav {
-  background-color: #369ca0;
+  background-color: rgba(54,156,160, 0.8);
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  z-index: 10;
 }
 
 .nav-check:checked ~ .nav {
@@ -99,13 +124,13 @@ label {
 .nav li {
   display: inline-block;
   text-align: center;
-  padding: .75rem;
-  width: 20em;
+  padding: 3rem 0;
+  width: 50vw;
 }
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .btn:hover {
@@ -199,10 +224,6 @@ legend {
   font-family: Coda, cursive;
 }
 
-label {
-  font-family: "Droid Sans", sans-serif;
-}
-
 fieldset {
   border: 0;
 }
@@ -211,7 +232,7 @@ fieldset {
   width: 75%;
 }
 
-video {
+.image {
   display: block;
   margin: 0 auto;
 }
@@ -244,7 +265,12 @@ span {
   border-bottom-color: #000;
 }
 a:focus {
-  outline: 3px solid #000;
+  outline: 0;
+}
+
+
+.visible {
+  display: none;
 }
 
 @media only screen and (min-width: 20em) {
@@ -271,6 +297,7 @@ a:focus {
   .hide {
     display: none;
   }
+
 
 }
 
@@ -299,6 +326,46 @@ a:focus {
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .nav-check {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .visible {
+    display: block;
+  }
+
+ .nav {
+    background-color: #fff;
+    display: inline-block;
+    height: 30px;
+   }
+
+ .nav a {
+   color: #000;
+ }
+
+.small {
+  display: none;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  width: 5rem;
+}
+
+.visible li:hover {
+  text-decoration: line-through;
+}
+
+.visible li:hover a{
+  color: #f7e96b;
+}
 
 }
 
