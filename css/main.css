@@ -73,6 +73,10 @@ h1 {
   border: 1px solid #f7e96b;
 }
 
+.btn a {
+  color: #fff;
+}
+
 .nav {
   display: none;
   list-style-type: none;
@@ -135,6 +139,10 @@ label {
   color: #f7e96b;
   text-decoration: none;
   border: 1px solid #f7e96b;
+}
+
+.btn:hover a {
+  color: #f7e96b;
 }
 
 .grey {
